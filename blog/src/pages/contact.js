@@ -18,7 +18,7 @@ const About = ({ data }) => {
       <div>{address}</div>
       <div style={{ maxWidth: `300px`, marginBottom: `1.45 rem` }}>
         <StaticImage
-          src="../images/gatsby-icon.png"
+          src="../images/foodtruck.jpg"
           width={300}
           quality={95}
           formats={["auto", "webp", "avif"]}

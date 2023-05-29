@@ -3,7 +3,6 @@ import {Link} from "gatsby"
 import styled, { ThemeConsumer } from 'styled-components'
 import { Flex } from 'rebass'
 import { H1 } from '../Heading'
-import { SearchButton } from '../Button'
 import { Section } from '../Section'
 
 const Outer = styled.header`
@@ -67,7 +66,6 @@ export const Header= ({siteTitle}) => (
                         <StyledLink to="/about"> About</StyledLink>
                         <StyledLink to="/contact">Contact</StyledLink>
                     </MediaQuery>
-                    <SearchButton variant="contrast" />
                 </Nav>
         </Section>
     </Section>

@@ -1,5 +1,5 @@
 import React from 'react'
-import mainHeaderImage from './images/foodtruck.jpg'
+import mainHeaderImage from '../../../images/foodtruck.jpg'
 import { Search } from 'styled-icons/feather'
 
 const images = {
