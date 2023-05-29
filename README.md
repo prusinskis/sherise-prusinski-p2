@@ -19,7 +19,27 @@ Speciality of this restaurant is, it offers daily different cuisines and want to
 4) Dynamic layout component for various screen sizes
 5) Purple Yellow theme navigation menu bar with contact, about and landing page links
 
+Netlify APP Deploy URL : https://playful-chimera-8bfd38.netlify.app/
+
 **Screenshots **
-1)
-2)
-3)
+![Alt text](screenshots/RowDisplay.png?raw=true "Row Display") <br>
+
+![Alt text](screenshots/ColumnDisplay.png?raw=true "Column Display") <br>
+
+![Alt text](screenshots/About.png?raw=true "About") <br>
+
+![Alt text](screenshots/Contact.png?raw=true "Contact") <br>
+
+![Alt text](screenshots/Monday.png?raw=true "Monday Cuisine") <br>
+
+![Alt text](screenshots/Tuesday.png?raw=true "Tuesday Cuisine") <br>
+
+![Alt text](screenshots/Wednesday.png?raw=true "Wednesday Cuisine") <br>
+
+![Alt text](screenshots/Thursday.png?raw=true "Thursday Cuisine") <br>
+
+![Alt text](screenshots/Friday.png?raw=true "Friday Cuisine") <br>
+
+![Alt text](screenshots/Saturday.png?raw=true "Saturday Cuisine") <br>
+
+![Alt text](screenshots/Sunday.png?raw=true "Sunday Cuisine") <br>
