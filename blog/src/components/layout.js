@@ -10,7 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import styled, { ThemeProvider } from "styled-components"
 
-import { Gray } from './themes/Gray'
+import { Purple } from './themes/Purple'
 import { Header } from "./Header"
 import "./layout.css"
 import { Main } from './Main'
@@ -34,7 +34,7 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <ThemeProvider theme={Gray}>
+    <ThemeProvider theme={Purple}>
       <Header siteTitle={data.site.siteMetadata.title || `Title`} />
       <Content>
         <Main m={20}>{children}</Main>
