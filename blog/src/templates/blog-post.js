@@ -5,7 +5,7 @@ import Layout from '../components/layout';
 import { H1 } from '../components/Heading'
 
 const BlogPost = ({ data }) => {
-    const { title, shortDescription, featuredImage } = data.contentfulPageBlogPost;
+    const { title, shortDescription, featuredImage, seoFields } = data.contentfulPageBlogPost;
 
     return (
       <Layout>
@@ -14,6 +14,11 @@ const BlogPost = ({ data }) => {
         <div
           dangerouslySetInnerHTML={{
             __html: shortDescription.childMarkdownRemark.html,
+          }}
+        ></div>
+        <div
+          dangerouslySetInnerHTML={{
+            __html: seoFields.pageDescription.childMarkdownRemark.html,
           }}
         ></div>
       </Layout>
@@ -34,6 +39,13 @@ export  const pageQuery = graphql`
       }
       featuredImage {
         gatsbyImageData(layout: CONSTRAINED, placeholder: BLURRED, width: 960)
+      }
+      seoFields {
+        pageDescription {
+          childMarkdownRemark {
+            html
+          }
+        }
       }
     }
   }
